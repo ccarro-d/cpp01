@@ -6,15 +6,15 @@
 /*   By: ccarro-d <ccarro-d@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/31 22:04:40 by ccarro-d          #+#    #+#             */
-/*   Updated: 2026/02/01 00:28:43 by ccarro-d         ###   ########.fr       */
+/*   Updated: 2026/02/01 13:42:19 by ccarro-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Weapon.hpp"
 
-Weapon::Weapon(const	std::string	_weapon) : type(_weapon) {}
+Weapon::Weapon(const std::string	&_weapon) : type(_weapon) {}
 
-std::string Weapon::getType(void)	const
+const std::string &Weapon::getType(void)	const
 {
 	return (type);
 }

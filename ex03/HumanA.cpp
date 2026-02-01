@@ -6,14 +6,14 @@
 /*   By: ccarro-d <ccarro-d@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/01 00:00:13 by ccarro-d          #+#    #+#             */
-/*   Updated: 2026/02/01 00:16:44 by ccarro-d         ###   ########.fr       */
+/*   Updated: 2026/02/01 13:43:07 by ccarro-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "HumanA.hpp"
 #include <iostream>
 
-HumanA::HumanA (const std::string _name, const Weapon _weapon) : name(_name), weapon(_weapon) {}
+HumanA::HumanA (const std::string &_name, Weapon &_weapon) : name(_name),  weapon(_weapon) {}
 
 void	HumanA::attack(void)
 {

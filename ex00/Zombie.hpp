@@ -6,7 +6,7 @@
 /*   By: ccarro-d <ccarro-d@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/30 20:30:34 by ccarro-d          #+#    #+#             */
-/*   Updated: 2026/01/31 19:54:03 by ccarro-d         ###   ########.fr       */
+/*   Updated: 2026/02/01 13:59:12 by ccarro-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 class Zombie {
 	
 	public:
-		Zombie(std::string);
+		Zombie(const std::string &_name);
 		~Zombie();
 		void	announce(void)	const;
 	

@@ -6,7 +6,7 @@
 /*   By: ccarro-d <ccarro-d@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/31 21:55:34 by ccarro-d          #+#    #+#             */
-/*   Updated: 2026/02/01 00:27:50 by ccarro-d         ###   ########.fr       */
+/*   Updated: 2026/02/01 13:42:22 by ccarro-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,8 @@
 
 class Weapon{
 	public:
-		Weapon(const	std::string	_weapon);
-		~Weapon();
-		std::string	getType(void) const;
+		Weapon(const std::string	&_weapon);
+		const std::string	&getType(void) const;
 		void		setType(const std::string	_type);
 
 	private:

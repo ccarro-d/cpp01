@@ -6,14 +6,14 @@
 /*   By: ccarro-d <ccarro-d@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/31 19:08:43 by ccarro-d          #+#    #+#             */
-/*   Updated: 2026/01/31 20:13:20 by ccarro-d         ###   ########.fr       */
+/*   Updated: 2026/02/01 13:59:25 by ccarro-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Zombie.hpp"
 #include <iostream>
 
-Zombie::Zombie (std::string _name) : name(_name) {}
+Zombie::Zombie (const std::string &_name) : name(_name) {}
 
 void	Zombie::announce(void)	const
 {

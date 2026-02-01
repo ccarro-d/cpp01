@@ -6,13 +6,12 @@
 /*   By: ccarro-d <ccarro-d@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/01 00:24:21 by ccarro-d          #+#    #+#             */
-/*   Updated: 2026/02/01 00:26:42 by ccarro-d         ###   ########.fr       */
+/*   Updated: 2026/02/01 13:34:53 by ccarro-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "HumanA.hpp"
 #include "HumanB.hpp"
-#include <string>
 
 int main()
 {
