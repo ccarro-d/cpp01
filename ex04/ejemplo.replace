@@ -1,0 +1,28 @@
+
+NAME    = accoun
+
+CYY     = c++
+CYYFLAGS= -Wall -Wextra -Werror -std=c++98 -MMD -MP
+
+SRC     = tests.cpp Account.cpp
+OBJ     = 
+
+all: 
+
+: 
+           -o 
+
+%.o: %.cpp
+          -c $< -o 
+
+clean:
+        rm -f  
+
+fclean: clean
+        rm -f 
+
+re: fclean all
+
+.PHONY: all clean fclean re
+
+-include 
